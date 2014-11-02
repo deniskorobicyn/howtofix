@@ -1,4 +1,8 @@
 1) Qt creator wont start up on KDE (segmentation fault)  
 	Solution: Application Appearance->Style - try change to other
-2) Nvidia Nsight Eclipse edition in KDE can't run solution 
+2) Nvidia Nsight Eclipse edition in KDE can't build project
 	Solution: Application Appearance->GTK - try change to other
+3) Could not find FindKDE.cmake 
+	Solution: install kdelibs5-dev
+4) Nautilus as default in mozila and opens on system start up
+	Solution: just remove mautilus sudo apt-get purge nautilus
