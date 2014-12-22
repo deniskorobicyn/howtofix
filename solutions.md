@@ -9,4 +9,9 @@
 	Solution: install kdelibs5-dev
 4. After installation KDE on Ubuntu, Nautilus is a default file manager in firefox, also opens on system start up.
 
-	Solution: just remove nautilus sudo apt-get purge nautilus
+        Solution: just remove nautilus sudo apt-get purge nautilus
+
+5. ERROR:  operator class "gist_trgm_ops" does not exist for access method "gist"
+
+        Solution: in pgadmin add extention pg_trgm
+
